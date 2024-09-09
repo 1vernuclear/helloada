@@ -1,0 +1,22 @@
+# Ignore Python bytecode and virtual environment
+__pycache__/
+*.pyc
+venv/
+
+# Ignore Flask instance folder or other app-specific folders
+instance/
+
+# Ignore SQLite database
+*.db
+
+# Ignore frontend build artifacts (for React or other JS frameworks)
+node_modules/
+build/
+dist/
+
+# Ignore environment variables
+.env
+
+# Ignore IDE or OS-specific files
+.vscode/
+.DS_Store
